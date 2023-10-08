@@ -1,3 +1,9 @@
+/*Variables*/
+$color-fondo-menu-footer: #1AACAC;
+$color-link-menu: white;
+$color-iconos: black;
+
+
 *{
     margin: 0;
     padding: 0;
@@ -6,14 +12,14 @@
 /*Menu */
 header {
     .fondoMenu{
-        background-color: #1AACAC;
+        background-color: $color-fondo-menu-footer;
     }
 }
 
 .navbar-light {
     .navbar-nav{
         .nav-link {
-            color: white;
+            color: $color-link-menu;
         }
     }
 
@@ -43,7 +49,7 @@ header {
 
 /*footer */
 footer {
-    background-color: #1AACAC;
+    background-color: $color-fondo-menu-footer;
 
     .logos_footer{
         display: flex;
@@ -56,7 +62,7 @@ footer {
                 text-decoration: none;
 
                 .bi {
-                    color: black;
+                    color: $color-iconos;
                     font-size: 30px;
                     margin: 10px;
                 }
