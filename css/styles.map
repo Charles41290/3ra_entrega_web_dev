@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../sass/styles.scss"
+	],
+	"sourcesContent": [
+		"*{\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\n/*Menu */\r\nheader {\r\n    .fondoMenu{\r\n        background-color: #1AACAC;\r\n    }\r\n}\r\n\r\n.navbar-light {\r\n    .navbar-nav{\r\n        .nav-link {\r\n            color: white;\r\n        }\r\n    }\r\n\r\n    .navbar-collapse {\r\n        flex-grow: 0;\r\n    }\r\n}\r\n\r\n.navbar-light .navbar-nav .nav-link:hover{\r\n    background-color: #362FD9;\r\n    color: #1AACAC;\r\n    border-radius: 10px;\r\n}\r\n\r\n/*body -> tarjetas de productos*/\r\n.col{\r\n    display: flex;\r\n    justify-content: center;\r\n    margin-top: 10px;\r\n\r\n    .card-img-top{\r\n        padding: 5px;\r\n        height: 325px;\r\n    \r\n    }\r\n}\r\n\r\n/*footer */\r\nfooter {\r\n    background-color: #1AACAC;\r\n\r\n    .logos_footer{\r\n        display: flex;\r\n        justify-content: center;\r\n\r\n        li {\r\n            list-style-type: none;\r\n\r\n            a{\r\n                text-decoration: none;\r\n\r\n                .bi {\r\n                    color: black;\r\n                    font-size: 30px;\r\n                    margin: 10px;\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AAED,SAAS;;AACT,AACI,MADE,CACF,UAAU,CAAA;EACN,gBAAgB,EAAE,OAAO;CAC5B;;;AAGL,AAEQ,aAFK,CACT,WAAW,CACP,SAAS,CAAC;EACN,KAAK,EAAE,KAAK;CACf;;;AAJT,AAOI,aAPS,CAOT,gBAAgB,CAAC;EACb,SAAS,EAAE,CAAC;CACf;;;AAGL,AAAA,aAAa,CAAC,WAAW,CAAC,SAAS,AAAA,MAAM,CAAA;EACrC,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,OAAO;EACd,aAAa,EAAE,IAAI;CACtB;;AAED,iCAAiC;;AACjC,AAAA,IAAI,CAAA;EACA,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,UAAU,EAAE,IAAI;CAOnB;;;AAVD,AAKI,IALA,CAKA,aAAa,CAAA;EACT,OAAO,EAAE,GAAG;EACZ,MAAM,EAAE,KAAK;CAEhB;;AAGL,WAAW;;AACX,AAAA,MAAM,CAAC;EACH,gBAAgB,EAAE,OAAO;CAoB5B;;;AArBD,AAGI,MAHE,CAGF,aAAa,CAAA;EACT,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CAe1B;;;AApBL,AAOQ,MAPF,CAGF,aAAa,CAIT,EAAE,CAAC;EACC,eAAe,EAAE,IAAI;CAWxB;;;AAnBT,AAUY,MAVN,CAGF,aAAa,CAIT,EAAE,CAGE,CAAC,CAAA;EACG,eAAe,EAAE,IAAI;CAOxB;;;AAlBb,AAagB,MAbV,CAGF,aAAa,CAIT,EAAE,CAGE,CAAC,CAGG,GAAG,CAAC;EACA,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,IAAI;CACf"
+}

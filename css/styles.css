@@ -1,0 +1,73 @@
+/* line 1, ../../../OneDrive - VENG SA/Documentos/Web-Dev/3era-Pre_entrega/sass/styles.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Menu */
+/* line 8, ../../../OneDrive - VENG SA/Documentos/Web-Dev/3era-Pre_entrega/sass/styles.scss */
+header .fondoMenu {
+  background-color: #1AACAC;
+}
+
+/* line 15, ../../../OneDrive - VENG SA/Documentos/Web-Dev/3era-Pre_entrega/sass/styles.scss */
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+/* line 20, ../../../OneDrive - VENG SA/Documentos/Web-Dev/3era-Pre_entrega/sass/styles.scss */
+.navbar-light .navbar-collapse {
+  flex-grow: 0;
+}
+
+/* line 25, ../../../OneDrive - VENG SA/Documentos/Web-Dev/3era-Pre_entrega/sass/styles.scss */
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: #362FD9;
+  color: #1AACAC;
+  border-radius: 10px;
+}
+
+/*body -> tarjetas de productos*/
+/* line 32, ../../../OneDrive - VENG SA/Documentos/Web-Dev/3era-Pre_entrega/sass/styles.scss */
+.col {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* line 37, ../../../OneDrive - VENG SA/Documentos/Web-Dev/3era-Pre_entrega/sass/styles.scss */
+.col .card-img-top {
+  padding: 5px;
+  height: 325px;
+}
+
+/*footer */
+/* line 45, ../../../OneDrive - VENG SA/Documentos/Web-Dev/3era-Pre_entrega/sass/styles.scss */
+footer {
+  background-color: #1AACAC;
+}
+
+/* line 48, ../../../OneDrive - VENG SA/Documentos/Web-Dev/3era-Pre_entrega/sass/styles.scss */
+footer .logos_footer {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 52, ../../../OneDrive - VENG SA/Documentos/Web-Dev/3era-Pre_entrega/sass/styles.scss */
+footer .logos_footer li {
+  list-style-type: none;
+}
+
+/* line 55, ../../../OneDrive - VENG SA/Documentos/Web-Dev/3era-Pre_entrega/sass/styles.scss */
+footer .logos_footer li a {
+  text-decoration: none;
+}
+
+/* line 58, ../../../OneDrive - VENG SA/Documentos/Web-Dev/3era-Pre_entrega/sass/styles.scss */
+footer .logos_footer li a .bi {
+  color: black;
+  font-size: 30px;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
