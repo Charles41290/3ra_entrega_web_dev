@@ -3,7 +3,6 @@ $color-fondo-menu-footer: #1AACAC;
 $color-link-menu: white;
 $color-iconos: black;
 
-
 *{
     margin: 0;
     padding: 0;
@@ -30,7 +29,8 @@ header {
 
 .navbar-light .navbar-nav .nav-link:hover{
     background-color: #362FD9;
-    color: #1AACAC;
+    /* color: #1AACAC; */
+    color: #D9F7F7;
     border-radius: 10px;
 }
 
